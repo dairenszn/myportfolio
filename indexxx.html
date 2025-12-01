@@ -6,16 +6,20 @@
     </head>
     <body>
 
+        <style>html{
+            scroll-behavior: smooth;
+        }</style>
+
         <div class="main">
              <div class navbar>
                   <img src="pic/Szn logo.png" class="logo"> 
 
                    <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Resume</a></li>    
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#resume">Resume</a></li>    
+                        <li><a href="#contact">Contact</a></li>
                    </ul>
              </div>
 
@@ -37,6 +41,46 @@
             <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
       </div>
   </div>
+  <section id="about">
+    <h1>About Me</h1>
+      <p>MY NAME IS DAIREN,A PASSIONATE WEB DESIGNER FROM NAIROBI,KENYA.
+          I CREATE PROFESSIONAL WEBSITES THAT HELP BUSINESSES ESTABLISH A STRONG ONLINE PRESENCE.
+          WITH A KEEN EYE FOR DETAIL AND A COMMITMENT TO QUALITY, I STRIVE TO DELIVER EXCEPTIONAL RESULTS
+          THAT EXCEED CLIENT EXPECTATIONS.
+      </p>
+  </section>
+    <section id="services">
+    <h1>Services</h1>
+      <p>STRUGGLING WITH WEB CREATION ?
+          LOOK NO FURTHER! I OFFER TOP-NOTCH WEB DESIGN SERVICES TAILORED TO YOUR NEEDS.
+          FROM CONCEPT TO COMPLETION, I WORK CLOSELY WITH YOU TO CRAFT A STUNNING WEBSITE
+          THAT CAPTIVATES YOUR AUDIENCE 
+      </p>
+  </section>
+  <section id="resume">
+    <h1>Resume</h1>
+      <p>WITH A STRONG BACKGROUND IN WEB DESIGN AND DEVELOPMENT,
+          I HAVE SUCCESSFULLY COMPLETED NUMEROUS PROJECTS FOR CLIENTS ACROSS VARIOUS INDUSTRIES.
+          MY SKILLS INCLUDE HTML, CSS, JAVASCRIPT, AND RESPONSIVE DESIGN,
+          ENSURING YOUR WEBSITE LOOKS GREAT ON ANY DEVICE.</p>
+  </section>
+  <section id="contact">
+    <h1>Contact</h1>
+      <div class="container">
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Send">
+        </form>
+      </div>
+  </section>
 
         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     </body>
